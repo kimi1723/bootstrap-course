@@ -71,6 +71,52 @@ body {
 	object-fit: cover;
 }
 
+.services-header {
+	background-image: url('../img/services/car-3126964_640.jpg');
+	background-position: 0 75%;
+}
+
+.mechanical-tuning,
+.car-audio,
+.all-in-one,
+.visual-tuning {
+	position: relative;
+	height: 250px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.mechanical-tuning {
+	background-image: url('../img/services/engine.jpg');
+}
+
+.visual-tuning {
+	background-image: url('../img/services/visual.jpg');
+}
+
+.car-audio {
+	background-image: url('../img/services/car-audio.jpg');
+}
+
+.all-in-one {
+	background-image: url('../img/services/allinone.jpg');
+}
+
+.project-hero {
+	background-image: url('../img/projects/project-hero.jpg');
+	background-position: center;
+}
+
+.project-cards .col .card .card-img-top {
+	object-fit: cover;
+	height: 300px;
+}
+
+.contact-hero {
+	background-image: url('../img/contact/shelby-3821715_640.jpg');
+	background-position: cover;
+}
+
 @media (min-width: 992px) {
 	.about-p {
 		width: 75%;
