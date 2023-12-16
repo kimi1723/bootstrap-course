@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
+.carousel-item {
+	position: relative;
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.carousel-img-one {
+	background-image: url('../img//main-carousel-1.jpg');
+}
+
+.carousel-img-two {
+	background-image: url('../img//main-carousel-2.jpg');
+}
+
+.carousel-img-three {
+	background-image: url('../img//main-carousel-3.jpg');
+}
+
+.cars {
+	position: relative;
+	height: 350px;
+	background-image: url('../img/home-passion.jpg');
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.top-hero {
+	position: relative;
+	height: 200px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.hero-aboutus-img {
+	background-image: url('../img/about/highway-2025863_640.jpg');
+	background-position: bottom;
+}
+
+.ferrari-img {
+	object-fit: cover;
+}
+
+@media (min-width: 992px) {
+	.about-p {
+		width: 75%;
+	}
+
+	.about-h3,
+	.about-p {
+		transform: skew(-15deg);
+	}
+
+	.ferrari-img {
+		transform: skew(-15deg);
+	}
+
+	.aboutus-ferrari {
+		box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.8);
+	}
+}
+
+@media (min-width: 1400px) {
+	.carousel-item {
+		height: 600px;
+	}
+
+	.carousel-img-one {
+		background-image: url('../img//main-carousel-1-hq.jpg');
+	}
+
+	.carousel-img-two {
+		background-image: url('../img//main-carousel-2-hq.jpg');
+	}
+
+	.carousel-img-three {
+		background-image: url('../img//main-carousel-3-hq.jpg');
+	}
+}
